@@ -1,0 +1,51 @@
+[11-Feb-2026 12:33:28 Europe/Berlin] Order action error: Cannot delete or update a parent row: a foreign key constraint fails (`car_rental`.`cars`, CONSTRAINT `cars_fk_3` FOREIGN KEY (`assigned_to`) REFERENCES `orders_forms` (`assigned_car`))
+[11-Feb-2026 12:33:39 Europe/Berlin] Order action error: Cannot delete or update a parent row: a foreign key constraint fails (`car_rental`.`cars`, CONSTRAINT `cars_fk_3` FOREIGN KEY (`assigned_to`) REFERENCES `orders_forms` (`assigned_car`))
+[11-Feb-2026 12:34:59 Europe/Berlin] Order action error: Cannot add or update a child row: a foreign key constraint fails (`car_rental`.`orders_forms`, CONSTRAINT `orders_fk_1` FOREIGN KEY (`assigned_car`) REFERENCES `cars` (`assigned_to`))
+[11-Feb-2026 12:35:09 Europe/Berlin] Order action error: Cannot add or update a child row: a foreign key constraint fails (`car_rental`.`orders_forms`, CONSTRAINT `orders_fk_1` FOREIGN KEY (`assigned_car`) REFERENCES `cars` (`assigned_to`))
+[11-Feb-2026 12:35:20 Europe/Berlin] Order action error: Cannot add or update a child row: a foreign key constraint fails (`car_rental`.`orders_forms`, CONSTRAINT `orders_fk_1` FOREIGN KEY (`assigned_car`) REFERENCES `cars` (`assigned_to`))
+[11-Feb-2026 12:42:57 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\admin\order_actions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(125): mysqli_stmt->bind_param('isssiiisssss', 9, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 1, 31, 'chauffeur-drive...', 'Kadautan St. Ma...', '2026-02-19 18:3...', 'Kadautan St. Ma...', '2026-02-21 18:3...', 'uploads/license...')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 125
+[11-Feb-2026 12:44:06 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\admin\order_actions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(125): mysqli_stmt->bind_param('isssiiisssss', 9, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 1, 31, 'chauffeur-drive...', 'Kadautan St. Ma...', '2026-02-19 18:3...', 'Kadautan St. Ma...', '2026-02-21 18:3...', 'uploads/license...')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 125
+[11-Feb-2026 12:45:35 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\admin\order_actions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(125): mysqli_stmt->bind_param('isssiiisssss', 9, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 1, 31, 'chauffeur-drive...', 'Kadautan St. Ma...', '2026-02-19 18:3...', 'Kadautan St. Ma...', '2026-02-21 18:3...', 'uploads/license...')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 125
+[11-Feb-2026 12:46:35 Europe/Berlin] Vehicle action error: Cannot delete vehicle assigned to an order
+[11-Feb-2026 12:55:47 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\admin\order_actions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(125): mysqli_stmt->bind_param('isssiiisssss', 9, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 1, 31, 'chauffeur-drive...', 'Kadautan St. Ma...', '2026-02-19 18:3...', 'Kadautan St. Ma...', '2026-02-21 18:3...', 'uploads/license...')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 125
+[11-Feb-2026 12:58:17 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\admin\order_actions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(125): mysqli_stmt->bind_param('isssiiisssss', 9, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 1, 31, 'chauffeur-drive...', 'Kadautan St. Ma...', '2026-02-19 18:3...', 'Kadautan St. Ma...', '2026-02-21 18:3...', 'uploads/license...')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 125
+[11-Feb-2026 13:04:48 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\admin\order_actions.php:125
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(125): mysqli_stmt->bind_param('isssiiisssss', 8, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 3, 0, 'self-drive', 'Kadautan St. Ma...', '2026-02-19 21:5...', 'Kadautan St. Ma...', '2026-02-21 21:5...', 'uploads/license...')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 125
+[11-Feb-2026 13:06:21 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\admin\order_actions.php:126
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(126): mysqli_stmt->bind_param('issiiissssss', 8, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 3, 0, 'self-drive', 'Kadautan St. Ma...', '2026-02-19 21:5...', 'Kadautan St. Ma...', '2026-02-21 21:5...', 'uploads/license...', 'Cancelled')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 126
+[11-Feb-2026 13:06:37 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\admin\order_actions.php:126
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(126): mysqli_stmt->bind_param('issiiissssss', 8, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 3, 0, 'self-drive', 'Kadautan St. Ma...', '2026-02-19 21:5...', 'Kadautan St. Ma...', '2026-02-21 21:5...', 'uploads/license...', 'Cancelled')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 126
+[11-Feb-2026 13:08:02 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in C:\xampp\htdocs\admin\order_actions.php:126
+Stack trace:
+#0 C:\xampp\htdocs\admin\order_actions.php(126): mysqli_stmt->bind_param('issiiissssss', 8, 'Kyroll Valleste...', 'kyroll@sample.c...', '9923652379', 3, 0, 'self-drive', 'Kadautan St. Ma...', '2026-02-19 21:5...', 'Kadautan St. Ma...', '2026-02-21 21:5...', 'uploads/license...', 'Cancelled')
+#1 {main}
+  thrown in C:\xampp\htdocs\admin\order_actions.php on line 126

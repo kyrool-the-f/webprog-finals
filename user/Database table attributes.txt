@@ -1,0 +1,72 @@
+Admin = 
+username:
+password:
+
+User =
+ID
+Full name:
+- First name
+- Middle initial
+- Last name
+Email
+Password
+
+
+Car rental form = 
+ID
+Full name:
+- First name
+- Middle initial
+- Last name
+Email:
+Contact number:
+Vehicle type:
+Service type:
+Pickup location:
+Pickup date and time:
+Return location:
+Return date and time:
+Driver's license
+
+
+Cars = 
+ID
+Model (Car model):
+Seater (Car model):
+Plate number:
+Status (idle, in-use, maintenance)
+
+Car model =
+ID
+Model name:
+Seater: 
+
+Employees = 
+ID
+Full name:
+- First name
+- Middle initial
+- Last name
+Address:
+Position:
+Status (idle, delivering, picking up, on-leave)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

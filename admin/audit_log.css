@@ -1,0 +1,30 @@
+/* Audit Log page styles */
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.status-badge.success {
+  background: #dff0d8;
+  color: #3c763d;
+}
+
+.status-badge.error {
+  background: #f2dede;
+  color: #a94442;
+}
+
+.status-badge.warning {
+  background: #fcf8e3;
+  color: #8a6d3b;
+}
+
+.status-badge.info {
+  background: #d9edf7;
+  color: #31708f;
+}

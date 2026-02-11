@@ -1,0 +1,25 @@
+/* History page styles */
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.status-badge.completed {
+  background: #dff0d8;
+  color: #3c763d;
+}
+
+.status-badge.cancelled {
+  background: #f2dede;
+  color: #a94442;
+}
+
+.status-badge.pending {
+  background: #fcf8e3;
+  color: #8a6d3b;
+}
